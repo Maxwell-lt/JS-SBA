@@ -1,3 +1,10 @@
+/*
+ * Turns a table of "calculator buttons" into a working calculator
+ * 
+ * Author:	Maxwell L-T
+ * Date:	2019-12-10
+ */
+
 var buttons = document.getElementById("calculator-buttons");
 var display = document.getElementById("calculator-display");
 

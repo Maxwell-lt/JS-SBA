@@ -1,3 +1,10 @@
+/*
+ * Draws a graph in graph.html based on user input
+ * 
+ * Author:	Maxwell L-T
+ * Date:	2019-12-10
+ */
+
 var element = document.getElementById("graphForm");
 element.addEventListener("submit", drawGraph, true);
 

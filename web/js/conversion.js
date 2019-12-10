@@ -1,3 +1,10 @@
+/*
+ * Reads data from a form, then displays converted units in a table
+ * 
+ * Author:	Maxwell L-T
+ * Date:	2019-12-10
+ */
+
 var element = document.getElementById("conversionForm");
 element.addEventListener("submit", doConversion, true);
 

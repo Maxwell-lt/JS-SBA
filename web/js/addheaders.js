@@ -1,3 +1,10 @@
+/*
+ * Places header at top of the page
+ * 
+ * Author:	Maxwell L-T
+ * Date:	2019-12-10
+ */
+
 document.getElementById("navbar").outerHTML = '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">'+
 	'<a class="navbar-brand" href="./index.html">Home</a>'+
 	'<div class="collapse navbar-collapse" id="navbarNavAltMarkup">'+
