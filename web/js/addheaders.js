@@ -1,4 +1,4 @@
-document.getElementById("navbar").outerHTML = '<nav class="navbar navbar-expand-lg navbar-light bg-light">'+
+document.getElementById("navbar").outerHTML = '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">'+
 	'<a class="navbar-brand" href="./index.html">Home</a>'+
 	'<div class="collapse navbar-collapse" id="navbarNavAltMarkup">'+
 	'<div class="navbar-nav">'+

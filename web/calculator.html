@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="./css/calculator.css" type="text/css" rel="stylesheet" />
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js" type="text/javascript"></script>
+<title>Scientific Calculator</title>
+</head>
+<body>
+	<div id="navbar"></div>
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h1>Calculator</h1>
+						<p>Use the buttons to input data into the display window, then press <b>=</b> to show the results.</p>						
+					</div>
+					<div class="col-md-4">
+						<img src="https://images.unsplash.com/photo-1563212034-a3c52118cce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div id="calculator-display">
+				&nbsp;
+				</div>
+				<table class="table table-bordered" id="calculator-buttons">
+					<tr>
+						<td>(</td>
+						<td>)</td>
+						<td>x<sup>y</sup></td>
+						<td>%</td>
+						<td style="background-color: red">AC</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+						<td>÷</td>
+						<td>sin</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+						<td>×</td>
+						<td>cos</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+						<td>+</td>
+						<td>tan</td>
+					</tr>
+					<tr>
+						<td>0</td>
+						<td>.</td>
+						<td style="background-color: blue">=</td>
+						<td>-</td>
+						<td>√</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script src="./js/addheaders.js" type="text/javascript"></script>
+	<script src="./js/calculator.js" type="text/javascript"></script>
+</body>
+</html>
