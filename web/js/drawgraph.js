@@ -3,9 +3,8 @@ element.addEventListener("submit", drawGraph, true);
 
 function drawGraph(e) {
 	e.preventDefault();
-	if (!e.target[0].value || !e.target[1].value || !e.target[2].value) {
-		return;
-	}
+	if (!e.target[0].value || !e.target[1].value || !e.target[2].value) return;
+	
 	let A = Number(e.target[0].value);
 	let B = Number(e.target[1].value);
 	let C = Number(e.target[2].value);

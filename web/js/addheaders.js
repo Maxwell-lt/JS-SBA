@@ -3,8 +3,8 @@ document.getElementById("navbar").outerHTML = '<nav class="navbar navbar-expand-
 	'<div class="collapse navbar-collapse" id="navbarNavAltMarkup">'+
 	'<div class="navbar-nav">'+
 	'<a class="nav-item nav-link" href="./graph.html">Graph Generator</a>'+
-	'<a class="nav-item nav-link" href="#">Scientific Calculator</a>'+
-	'<a class="nav-item nav-link" href="#">Unit Conversion</a>'+
+	'<a class="nav-item nav-link" href="./calculator.html">Scientific Calculator</a>'+
+	'<a class="nav-item nav-link" href="./conversion.html">Unit Conversion</a>'+
 	'</div>'+
 	'</div>'+
 	'</nav>';
