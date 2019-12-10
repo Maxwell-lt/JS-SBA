@@ -1,3 +1,10 @@
+/*
+ * Styles elements in calculator.html
+ * 
+ * Author:	Maxwell L-T
+ * Date:	2019-12-10
+ */
+
 @font-face {
 	font-family: 'sa-digital-number';
 	src: url('https://s-a.github.io/digital-numbers-font/demo/fonts/sa-digital-number.ttf') format('truetype');
