@@ -15,3 +15,5 @@ document.getElementById("navbar").outerHTML = '<nav class="navbar navbar-expand-
 	'</div>'+
 	'</div>'+
 	'</nav>';
+
+document.getElementById();
