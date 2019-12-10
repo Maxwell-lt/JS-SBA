@@ -15,6 +15,10 @@ function doConversion(e) {
 	if (!e.target[0].value) return;
 	
 	let inputValue = e.target[0].value;
+	if (!inputValue.match(/^\d*\.?\d*$/)) {
+		alert("Invalid input");
+		return;
+	}
 	let select = e.target[1];
 	var opt;
 	for (var i = 0; i < select.options.length; i++) {
@@ -29,6 +33,10 @@ function doConversion(e) {
 		cells[1].textContent = inputValue * 453.6;
 		cells[2].textContent = "Kilograms";
 		cells[3].textContent = inputValue * 0.4536;
+		cells[4].textContent = "Ounces";
+		cells[5].textContent = inputValue * 16.0;
+		cells[6].textContent = "Tonnes";
+		cells[7].textContent = inputValue * 0.0004536;
 		break;
 	case "Feet":
 		cells[0].textContent = "Miles";
@@ -46,15 +54,19 @@ function doConversion(e) {
 		cells[2].textContent = "Cubic Meters";
 		cells[3].textContent = inputValue * 0.003785;
 		cells[4].textContent = "Pints";
-		cells[5].textContent = inputValue * 8;
+		cells[5].textContent = inputValue * 8.0;
 		cells[6].textContent = "Fluid Ounces";
-		cells[7].textContent = inputValue * 128;
+		cells[7].textContent = inputValue * 128.0;
 		break;
 	case "Kilograms":
 		cells[0].textContent = "Grams";
-		cells[1].textContent = inputValue * 1000;
+		cells[1].textContent = inputValue * 1000.0;
 		cells[2].textContent = "Pounds";
 		cells[3].textContent = inputValue * 2.205;
+		cells[4].textContent = "Ounces";
+		cells[5].textContent = inputValue * 35.27;
+		cells[6].textContent = "Tonnes";
+		cells[7].textContent = inputValue * 0.001;
 		break;
 	case "Meters":
 		cells[0].textContent = "Miles";
@@ -62,9 +74,9 @@ function doConversion(e) {
 		cells[2].textContent = "Feet";
 		cells[3].textContent = inputValue * 3.281;
 		cells[4].textContent = "Millimeters";
-		cells[5].textContent = inputValue * 1000;
+		cells[5].textContent = inputValue * 1000.0;
 		cells[6].textContent = "Centimeters";
-		cells[7].textContent = inputValue * 100;
+		cells[7].textContent = inputValue * 100.0;
 		break;
 	case "Liters":
 		cells[0].textContent = "Gallons";
