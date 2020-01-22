@@ -1,3 +1,5 @@
+## [View online](https://maxwell-lt.github.io/JS-SBA/web/index.html)
+
 # Math Tools
 
 ## Description
